@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julekalender</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="assets/manifest.json">
+    <script src="jul.js" defer></script>
+
+    <script>
+        if ("serviceWorker in navigator"){
+            window.addEventListener("load", function(){
+                navigator.serviceWorker.register("service-worker.js")
+            })
+        }
+    </script>
+</head>
+<body>
+
+    <h1>få fem ens og vind!!!</h1>
+    
+    <div class="item-container">
+        <figure class="item" data-date="21">
+            <img src="img/xmastree.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">21</p>
+
+            </div>
+
+        </figure>
+
+        <figure class="item" data-date="4">
+            <img src="img/elf.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">4</p>
+                
+            </div>
+
+        </figure>
+
+        <figure class="item" data-date="11">
+            <img src="img/reindeer.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">11</p>
+                
+            </div>
+
+        </figure>
+
+
+        <figure class="item" data-date="18">
+            <img src="img/Candy-cane.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">18</p>
+                
+            </div>
+
+        </figure>
+
+
+        <figure class="item" data-date="16">
+            <img src="img/Santa_hat.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">16</p>
+                
+            </div>
+
+        </figure>
+
+
+        <figure class="item" data-date="2">
+            <img src="img/food.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">2</p>
+                
+            </div>
+
+        </figure>
+
+        <figure class="item" data-date="7">
+            <img src="img/Santa_hat.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">7</p>
+                
+            </div>
+
+        </figure>
+
+        <figure class="item" data-date="10">
+            <img src="img/food.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">10</p>
+                
+            </div>
+
+        </figure>
+
+        <figure class="item" data-date="9">
+            <img src="img/elf.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">9</p>
+                
+            </div>
+
+        </figure>
+
+        <figure class="item" data-date="3">
+            <img src="img/reindeer.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">3</p>
+                
+            </div>
+
+        </figure>
+
+        <figure class="item" data-date="20">
+            <img src="img/Candy-cane.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">20</p>
+                
+            </div>
+
+        </figure>
+
+        <figure class="item" id="last-day" data-date="24">
+            <img src="img/jul.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number"><span class="christmas">24</span> </p>
+                
+            </div>
+
+        </figure>
+        
+        <figure class="item" data-date="6">
+            <img src="img/snowman.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">6</p>
+                
+            </div>
+
+        </figure>
+        
+        <figure class="item" data-date="23">
+            <img src="img/snowglobe.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">23</p>
+                
+            </div>
+
+        </figure>
+        
+        <figure class="item" data-date="15">
+            <img src="img/xmastree.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">15</p>
+                
+            </div>
+
+        </figure>
+        
+        <figure class="item" data-date="5">
+            <img src="img/reindeer.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">5</p>
+                
+            </div>
+
+        </figure>
+        
+        <figure class="item" data-date="13">
+            <img src="img/snowman.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">13</p>
+                
+            </div>
+
+        </figure>
+        
+        <figure class="item" data-date="1">
+            <img src="img/elf.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">1</p>
+                
+            </div>
+
+        </figure>
+        
+        <figure class="item" data-date="19">
+            <img src="img/xmastree.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">19</p>
+                
+            </div>
+
+        </figure>
+        
+        <figure class="item" data-date="14">
+            <img src="img/reindeer.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">14</p>
+                
+            </div>
+
+        </figure>
+        
+        <figure class="item" data-date="12">
+            <img src="img/Santa_hat.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">12</p>
+                
+            </div>
+
+        </figure>
+        
+        <figure class="item" data-date="22">
+            <img src="img/xmastree.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">22</p>
+                
+            </div>
+
+        </figure>
+
+        
+        <figure class="item" data-date="17">
+            <img src="img/snowglobe.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">17</p>
+                
+            </div>
+
+        </figure>
+
+        
+        <figure class="item" data-date="8">
+            <img src="img/snowman.jpg" alt=" ">
+            <div class="item-overlay">
+                <p class="item-number">8</p>
+                
+            </div>
+
+        </figure>
+
+
+    </div>
+
+</body>
+</html>
